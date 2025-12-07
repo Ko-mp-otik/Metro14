@@ -2,15 +2,15 @@
   abstract: true
   parent: BaseStructureWall
   id: M14BaseWall
-  name: base wall
-  description: Keeps the air in and the mutants out.
+  name: базовая стена
+  description: Удерживает надежду внутри, а мутантов снаружи.
   components:
   - type: Occluder
 
 - type: entity
   parent: M14BaseWall
   id: M14WallMetal
-  name: metal wall
+  name: стальная стена
   components:
   - type: Sprite
     sprite: _Metro14/Structures/Walls/metal.rsi
@@ -26,7 +26,7 @@
 - type: entity
   parent: M14BaseWall
   id: M14WallMetalRust
-  name: rust metal wall
+  name: ржавая стальная стена
   components:
   - type: Sprite
     sprite: _Metro14/Structures/Walls/rustmetal.rsi
@@ -42,7 +42,7 @@
 - type: entity
   parent: M14BaseWall
   id: M14WallMetalReinforced
-  name: reinforced metal wall
+  name: укреплённая стальная стена
   components:
   - type: Sprite
     sprite: _Metro14/Structures/Walls/rmetal.rsi
@@ -58,7 +58,7 @@
 - type: entity
   parent: M14BaseWall
   id: M14WallMetalReinforcedRust
-  name: rust reinforced metal wall
+  name: ржавая укреплённая стальная стена
   components:
   - type: Sprite
     sprite: _Metro14/Structures/Walls/rrmetal.rsi
