@@ -1,14 +1,14 @@
 - type: entity
   abstract: true
   parent: BaseStructureWall
-  id: M14WallBase
+  id: M14BaseWall
   name: базовая стена
   description: Удерживает надежду внутри, а мутантов снаружи.
   components:
   - type: Occluder
 
 - type: entity
-  parent: M14WallBase
+  parent: M14BaseWall
   id: M14WallMetal
   name: стальная стена
   components:
@@ -24,7 +24,7 @@
     base: metal
 
 - type: entity
-  parent: M14WallBase
+  parent: M14BaseWall
   id: M14WallMetalRust
   name: ржавая стальная стена
   components:
@@ -40,7 +40,7 @@
     base: rustmetal
 
 - type: entity
-  parent: M14WallBase
+  parent: M14BaseWall
   id: M14WallMetalReinforced
   name: укреплённая стальная стена
   components:
@@ -56,7 +56,7 @@
     base: rmetal
 
 - type: entity
-  parent: M14WallBase
+  parent: M14BaseWall
   id: M14WallMetalReinforcedRust
   name: ржавая укреплённая стальная стена
   components:
@@ -72,7 +72,7 @@
     base: rrmetal
 
 - type: entity
-  parent: M14WallBase
+  parent: M14BaseWall
   id: M14WallConcrete
   name: бетонная стена
   components:
@@ -88,7 +88,7 @@
     base: concrete
 
 - type: entity
-  parent: M14WallBase
+  parent: M14BaseWall
   id: M14WallWood
   name: деревянная стена
   components:
